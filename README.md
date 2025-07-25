@@ -1,4 +1,4 @@
-# Online Job Portal (React + Firebase)
+<img width="1366" height="1206" alt="image" src="https://github.com/user-attachments/assets/c059d40d-a7ad-4ae9-b1f5-8945b2c47abb" /># Online Job Portal (React + Firebase)
 
 This is a full-featured Job Portal Web Application built using React.js and Firebase Firestore. 
 Users can filter and explore job listings with pagination, search, and category filters.
@@ -27,6 +27,10 @@ Users can filter and explore job listings with pagination, search, and category 
 | TailwindCSS  | Styling and Layout       |
 
 ---
+
+##Screenshot
+![Homepage](./screenshots/homepage.png)
+
 
 ## Folder Structure
 
