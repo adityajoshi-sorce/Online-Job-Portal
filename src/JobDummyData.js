@@ -1,0 +1,61 @@
+export default [
+  {
+    id: 1,
+    postedOn: "2025-07-23",
+    title: "ios Developer",
+    company: "Apple",
+    type: "Full Time",
+    experience: "Mid Level",
+    location: "Remote",
+    skills: ["swiftUI", "UIkit", "Core Data"],
+    job_link: "https://www.apple.com/careers/in/",
+  },
+
+  {
+    id: 2,
+    postedOn: "2025-07-22",
+    title: "Frontend Developer",
+    company: "Google",
+    type: "Part Time",
+    experience: "Junior",
+    location: "Work From Home",
+    skills: ["React", "Tailwind CSS", "TypeScript"],
+    job_link: "https://careers.google.com/",
+  },
+
+  {
+    id: 3,
+    postedOn: "2025-07-20",
+    title: "Backend Developer",
+    company: "Amazon",
+    type: "Contract",
+    experience: "Senior",
+    location: "Office",
+    skills: ["Node.js", "Express", "MongoDB", "AWS"],
+    job_link: "https://www.amazon.jobs/en/",
+  },
+
+  {
+    id: 4,
+    postedOn: "2025-07-21",
+    title: "Android Developer",
+    company: "Samsung",
+    type: "Full Time",
+    experience: "Mid Level",
+    location: "Remote",
+    skills: ["Kotlin", "Jetpack Compose", "Room DB"],
+    job_link: "https://www.samsungcareers.com/",
+  },
+
+  {
+    id: 5,
+    postedOn: "2025-07-19",
+    title: "Cloud Engineer",
+    company: "Microsoft",
+    type: "Full Time",
+    experience: "Senior",
+    location: "Office",
+    skills: ["Azure", "Terraform", "Docker", "Kubernetes"],
+    job_link: "https://careers.microsoft.com/",
+  },
+];

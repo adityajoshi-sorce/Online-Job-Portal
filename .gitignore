@@ -1,0 +1,29 @@
+# === Node Modules ===
+node_modules/
+firebase-job-uploader/node_modules/
+
+# === Build Output ===
+dist/
+build/
+
+# === Logs ===
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# === Firebase Config (Sensitive) ===
+src/firebase.config.js
+
+# === Env Variables ===
+.env
+
+# === System Files ===
+.DS_Store
+Thumbs.db
+
+# === IDE Settings ===
+.vscode/
+
+# === Lock Files (Optional, comment out if you want to keep)
+package-lock.json
+firebase-job-uploader/package-lock.json
