@@ -1,12 +1,52 @@
-# React + Vite
+# Online Job Portal (React + Firebase)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a full-featured Job Portal Web Application built using React.js and Firebase Firestore. 
+Users can filter and explore job listings with pagination, search, and category filters.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+##  Features
 
-## Expanding the ESLint configuration
+- Filter jobs by title, type, location, experience, or skills
+- Real-time data from Firebase Firestore
+- Shows how many days ago each job was posted
+- Pagination (5 jobs per page with page shift navigation)
+- Dummy data uploader (Node.js script to seed jobs in Firestore)
+- Responsive and clean UI
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+##  Tech Stack
+
+| Technology   | Purpose                 |
+|--------------|--------------------------|
+| React.js     | Frontend UI Framework    |
+| Firebase     | Backend Database (Firestore) |
+| Node.js      | Data uploader for seeding jobs |
+| JavaScript   | App Logic & Components   |
+| TailwindCSS  | Styling and Layout       |
+
+---
+
+## Folder Structure
+
+Job-Portal/
+├── firebase-job-uploader/ # Node.js job uploader script
+│ └── uploadJobs.js
+├── public/
+├── src/
+│ ├── Components/
+│ │ ├── Header/
+│ │ ├── Job Card/
+│ │ ├── Navbar/
+│ │ └── SearchBar/
+│ ├── assets/
+│ ├── App.jsx
+│ ├── firebase.config.js
+│ ├── firebase.config.example.js
+│ ├── JobDummyData.js
+│ └── index.css / main.jsx
+├── .gitignore
+├── package.json
+└── README.md
+
